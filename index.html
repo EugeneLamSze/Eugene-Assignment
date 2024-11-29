@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Scientists</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400&family=Poppins:wght@700&display=swap');
+
+        /* General Styles */
+        body {
+            font-family: 'Libre Franklin', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #FFF5E5, #D9B08C);
+            color: #4F4A41;
+        }
+
+        /* Navigation Bar */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #4F4A41;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            font-family: 'Poppins', sans-serif;
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #FFD700;
+            color: #4F4A41;
+        }
+
+        /* Hero Section */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #D9B08C, #FF7F50);
+            color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Scientist Showcase Section */
+        section {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        figure {
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        figure:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        figcaption {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 15px;
+            background: #FFD700;
+            color: #4F4A41;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: #4F4A41;
+            color: #FFD700;
+            font-size: 1rem;
+            margin-top: 50px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #FF7F50;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="major_contributions.html">Major Contributions</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="reference.html">References</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>Famous Scientist that Changed the World</h1>
+        <p>Discover the stories, achievements, and legacies of remarkable scientists who have shaped the world, such as James Watson, Frederick Banting, and Charles Kao Kuen.</p>
+    </header>
+
+    <!-- Scientist Section -->
+    <section>
+        <figure>
+            <img src="https://cdn.britannica.com/26/154626-050-A99F9CF1/James-Watson.jpg" alt="James Watson">
+            <figcaption>James Watson</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.7McBmLf-fKlmMyhamyOASwAAAA&pid=Api" alt="Frederick Banting">
+            <figcaption>Frederick Banting</figcaption>
+        </figure>
+        <figure>
+            <img src="https://ethw.org/w/images/thumb/8/88/1776_-_Kao.jpg/300px-1776_-_Kao.jpg" alt="Charles Kao">
+            <figcaption>Charles Kao Kuen</figcaption>
+        </figure>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Famous Scientists | Designed by <a href="#">Eugene Lam</a>.</p>
+    </footer>
+</body>
+</html>
+
